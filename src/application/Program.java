@@ -5,7 +5,7 @@ import java.util.TreeSet;
 
 public class Program {
 
-	public static void main (String[] args) {
+	public static void main(String[] args) {
 		
 		Set<Product> set = new TreeSet<>();
 		
@@ -16,8 +16,5 @@ public class Program {
 		for (Product p : set) {
 			System.out.println(p);
 		}
-		
-		 
-		
 	}
 }
